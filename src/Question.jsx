@@ -80,7 +80,7 @@ export const QuestionHandler = ({ data, title }) => {
   );
 };
 
-// ✅ Валидация пропсов
+
 QuestionHandler.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
