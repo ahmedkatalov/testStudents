@@ -3,6 +3,8 @@ import { HCintermediate } from "./HTMLCSS/HCintermediate";
 import { HCadvanced } from "./HTMLCSS/HCadnvanced";
 import { HCbeginner } from "./HTMLCSS/HCbeginner";
 
+
+import {JSintermediate} from "./JS/JSintermediate"
 import { JSbeginner } from "./JS/JSbeginner";
 const App = () => {
   return (
@@ -63,6 +65,18 @@ const App = () => {
         >
           JS beginner
         </Link> 
+        <Link
+          to="/jsIntermediate"
+          style={{
+            padding: "10px",
+            textDecoration: "none",
+            color: "white",
+            backgroundColor: "green",
+            borderRadius: "5px",
+          }}
+        >
+          JS intermediate
+        </Link> 
 
 
       </nav>
@@ -72,6 +86,7 @@ const App = () => {
          <Route path="/hcadvanced" element={<HCadvanced/>} /> 
 
          <Route path="/jsBeginner" element={<JSbeginner/>}/>
+         <Route path="/jsIntermediate" element={<JSintermediate/>}/>
 
 
 
