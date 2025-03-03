@@ -8,6 +8,7 @@
         <div>
             <QuestionHandler data={jsIntermediate} title="JS beginner"/>
             {/* rgvrvrgvr */}
+            {/* rgvrvrgvr */}
         </div>
         </>
     )
